@@ -1,0 +1,81 @@
+App.css
+
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+.filters {
+  display: flex;
+  margin-left:12rem ;
+  margin-right: 11.5rem;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.filters select{
+  background-color: #c7a900;
+  border: none;
+  border-radius: 5px;
+}
+.filters input{
+  background-color: #c7a900;
+  border: none;
+  border-radius: 5px;
+  color: aliceblue;
+}
+.filters select,
+.filters input {
+  margin-right: 10px;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.transactions-table {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  /* border-radius: px; */
+}
+
+.transactions-table table {
+  width: 80%;
+  color: #0a0000;
+  table-layout:auto;
+  border-collapse: collapse;
+  background-color: #c7a900;
+
+}
+/* .idc{
+  width:500px;
+} */
+.transactions-table th,
+.transactions-table td {
+  border: 2px solid #0a0000;
+ 
+  /* width:200px; */
+  /* overflow: hidden; */
+  padding: 8px;
+  text-align: left;
+}
+.pagination span{
+  color: #0a0000;
+}
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.pagination button {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
